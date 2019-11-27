@@ -47,12 +47,12 @@ public class MyJNIExample {
     }
 
     private static native void sayHelloC();
-    private native void sayHelloCpp();
-//    private static native void sayHelloCpp();
+//    private native void sayHelloCpp();
+    private static native void sayHelloCpp();
 
     public static void main(String[] args) {
         sayHelloC();  // Create an instance and invoke the native method
-        new MyJNIExample().sayHelloCpp();  // Create an instance and invoke the native method
-//        sayHelloCpp();  // Create an instance and invoke the native method
+//        new MyJNIExample().sayHelloCpp();  // Create an instance and invoke the native method
+        sayHelloCpp();  // Create an instance and invoke the native method
     }
 }
