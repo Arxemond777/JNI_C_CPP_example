@@ -1,3 +1,8 @@
+// STEP 0
+/**
+ * cd src/main/java/
+ */
+
 // STEP 1
 /**
  * /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin/javac -h . MyJNIExample.java

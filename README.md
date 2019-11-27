@@ -1,5 +1,10 @@
 # JNI example with C/C++
 
+## STEP 0: go to work the dir
+```bash
+cd src/main/java/
+```
+
 ## STEP 1: generate JNI header
 ```bash
 /Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/bin/javac \
