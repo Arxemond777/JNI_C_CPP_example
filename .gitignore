@@ -4,7 +4,7 @@ out
 *.class
 
 # JNI headers
-src/main/java/MyJNIExample.h
+#src/main/java/MyJNIExample.h
 
 # dynamic library
 *.dylib
