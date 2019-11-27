@@ -1,0 +1,16 @@
+# java
+target
+out
+*.class
+
+# JNI headers
+src/main/java/MyJNIExample.h
+
+# dynamic library
+*.dylib
+*.so
+*.dll
+
+# idea
+.idea
+*.iml
