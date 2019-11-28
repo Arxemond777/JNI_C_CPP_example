@@ -21,6 +21,14 @@ JNIEXPORT void JNICALL Java_MyJNIExample_sayHelloC
  * Signature: ()V
  */
 JNIEXPORT void JNICALL Java_MyJNIExample_sayHelloCpp
+  (JNIEnv *, jobject);
+
+/*
+ * Class:     MyJNIExample
+ * Method:    sayHelloCppStatic
+ * Signature: ()V
+ */
+JNIEXPORT void JNICALL Java_MyJNIExample_sayHelloCppStatic
   (JNIEnv *, jclass);
 
 #ifdef __cplusplus

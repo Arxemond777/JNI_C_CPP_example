@@ -46,6 +46,19 @@ g++ -fPIC -dynamiclib -o libhellocpp.dylib  \
 MyJNIExample.cpp
 ```
 
+## STEP 2 (C++): compile C++ binary files for a static method
+### for linux
+```bash
+
+```
+
+### for macOS
+```bash
+g++ -fPIC -dynamiclib -o libhellocppstatic.dylib  \
+ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/ \
+ -I/Library/Java/JavaVirtualMachines/jdk1.8.0_191.jdk/Contents/Home/include/darwin/ \
+ MyJNIExampleStatic.cpp
+```
 
 ## STEP 3: run example
 ```bash
